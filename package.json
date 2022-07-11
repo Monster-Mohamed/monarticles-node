@@ -1,0 +1,39 @@
+{
+  "name": "monster-articles",
+  "version": "1.0.0",
+  "description": "Starter kit for creating React and Express apps",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.1.3",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "mongoose": "^6.4.0",
+    "react-bootstrap": "^2.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monster-Mohamed/Articles-App-Nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Monster-Mohamed/Articles-App-Nodejs/issues"
+  },
+  "homepage": "https://github.com/Monster-Mohamed/Articles-App-Nodejs#readme",
+  "engines": {
+    "node": "16.14.2"
+  }
+}
